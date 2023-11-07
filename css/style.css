@@ -1,7 +1,47 @@
 :root {
-
+    
 }
 
 * {
-    
+    margin: 0;
+    padding: 0;
+}
+
+.nav__logo {
+    width: 80px;
+    height: 80px;
+}
+.nav__icon {
+}
+.korting {
+    background-color: rgba(146, 146, 146, 0.403);
+}
+h3 {
+    font-weight: normal;
+}
+h4 {
+    font-weight: normal;
+}
+.card__image {
+    width: 300px;
+    height: 320px;
+}
+.card__name {
+    font-weight: normal;
+}
+.card__extra {
+    color: gray;
+}
+.card__extra--red {
+    color: rgb(154, 0, 0);
+}
+.footer {
+    background-color: #000000;
+    color: white;
+}
+.footer__left {
+    display: flex;
+}
+.footer__left__copyright {
+    color: gray;
 }
